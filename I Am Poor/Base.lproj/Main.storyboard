@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,88 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnq-wL-kQM">
+                                <rect key="frame" x="20" y="109.00000000000001" width="353" height="61.666666666666671"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="44"/>
+                                <color key="textColor" red="0.21784282282580003" green="1" blue="0.7499752347392552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2252375-200" translatesAutoresizingMaskIntoConstraints="NO" id="Rq7-eU-diW">
+                                <rect key="frame" x="30" y="208" width="333" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="IO8-nw-zne"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="xq6-YI-63J">
+                                <rect key="frame" x="16" y="509" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eBO-MS-yg2"/>
+                                    <constraint firstAttribute="width" constant="50" id="xZj-JV-WaO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="W8U-TW-gE9">
+                                <rect key="frame" x="74" y="545" width="65" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="6ov-P0-mmy"/>
+                                    <constraint firstAttribute="height" constant="67" id="cMa-yP-GmP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="Uqg-xo-1uM">
+                                <rect key="frame" x="147" y="586" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="b83-kd-fSV"/>
+                                    <constraint firstAttribute="width" constant="110" id="upY-zG-1wF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="zKv-QP-nbC">
+                                <rect key="frame" x="323" y="509" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="C1k-Or-zf6"/>
+                                    <constraint firstAttribute="height" constant="50" id="DyQ-Om-90Z"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="sZS-fo-Z7w">
+                                <rect key="frame" x="267" y="567" width="65" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="8Wk-cS-SPa"/>
+                                    <constraint firstAttribute="width" constant="65" id="UNP-Mn-1HZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.18823529411764706" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sZS-fo-Z7w" secondAttribute="trailing" constant="61" id="5tD-8l-xnf"/>
+                            <constraint firstItem="Rq7-eU-diW" firstAttribute="top" secondItem="pnq-wL-kQM" secondAttribute="bottom" constant="37.329999999999998" id="Elf-E5-J68"/>
+                            <constraint firstItem="Uqg-xo-1uM" firstAttribute="top" secondItem="Rq7-eU-diW" secondAttribute="bottom" constant="78" id="FDa-0r-tV6"/>
+                            <constraint firstItem="Uqg-xo-1uM" firstAttribute="leading" secondItem="W8U-TW-gE9" secondAttribute="trailing" constant="8" id="Fiz-34-6RC"/>
+                            <constraint firstItem="xq6-YI-63J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hl3-cv-6HP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zKv-QP-nbC" secondAttribute="trailing" constant="20" id="Jwl-nL-ODQ"/>
+                            <constraint firstItem="pnq-wL-kQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lgs-Dl-Dd8"/>
+                            <constraint firstItem="xq6-YI-63J" firstAttribute="top" secondItem="Rq7-eU-diW" secondAttribute="bottom" constant="1" id="O8D-HG-CEa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pnq-wL-kQM" secondAttribute="trailing" constant="20" id="Sil-2M-oUA"/>
+                            <constraint firstItem="Rq7-eU-diW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="VRQ-5s-T5k"/>
+                            <constraint firstItem="pnq-wL-kQM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="eOv-Ag-3Pr"/>
+                            <constraint firstItem="W8U-TW-gE9" firstAttribute="leading" secondItem="xq6-YI-63J" secondAttribute="trailing" constant="8" id="gms-wV-HYA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rq7-eU-diW" secondAttribute="trailing" constant="30" id="hPY-aP-xma"/>
+                            <constraint firstItem="zKv-QP-nbC" firstAttribute="top" secondItem="Rq7-eU-diW" secondAttribute="bottom" constant="1" id="kTX-Kf-jok"/>
+                            <constraint firstItem="sZS-fo-Z7w" firstAttribute="top" secondItem="Rq7-eU-diW" secondAttribute="bottom" constant="59" id="l6i-t3-iFy"/>
+                            <constraint firstItem="W8U-TW-gE9" firstAttribute="top" secondItem="Rq7-eU-diW" secondAttribute="bottom" constant="37" id="nyo-Yk-HQq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="20.610687022900763" y="4.9295774647887329"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2252375-200" width="66.666664123535156" height="66.666664123535156"/>
+        <image name="coal" width="151" height="128"/>
+    </resources>
 </document>
